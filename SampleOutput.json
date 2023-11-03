@@ -1,0 +1,106 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "STAYC - K-pop group in Rangers tops 'mix-up' at Texas gig",
+      "description": "The band mistakenly wore the Scottish Premiership jerseys instead of local baseball team Texas Rangers.",
+      "url": "http://www.bbc.co.uk/news/uk-scotland-67204915",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/286F/production/_131515301_f82pkirxeaa67av.jpg",
+      "publishedAt": "2023-10-24T11:07:20.2239793Z",
+      "content": "A popular K-Pop band appears to have made a mix-up by donning retro Rangers tops at a show in Texas.\r\nSTAYC were performing in Dallas as part of their US tour.\r\nBut instead of wearing local baseball … [+1124 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Seven dead after 'super fog' kills seven in New Orleans crash",
+      "description": "A dense fog caused a pile-up of more than 150 vehicles near New Orleans, killing seven and wounding 25.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-67204993",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/12DC3/production/_131515277_new-orleans-highway-lsp-a.jpg",
+      "publishedAt": "2023-10-24T10:52:23.5058468Z",
+      "content": "At least seven people have died after a dense \"super fog\" caused a huge, 158-car pile-up near New Orleans.\r\nThick fog and fumes from multiple marsh fires mingled to reduce visibility for drivers comm… [+1528 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Freed hostage says she was held in 'spider's web' of Gaza tunnels",
+      "description": "Speaking after being released by Hamas, Yocheved Lifschitz said she \"went through hell\" while in captivity.",
+      "url": "http://www.bbc.co.uk/news/world-middle-east-67204479",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/736F/production/_131515592_whatsappimage2023-10-24at08.20.22.jpg",
+      "publishedAt": "2023-10-24T10:52:21.9437345Z",
+      "content": "Media caption, Peace activist Yocheved Lifschitz, 85, says she was beaten, but otherwise treated humanely\r\n\"I went through hell,\" says Yocheved Lifschitz, an 85-year-old grandmother and peace activis… [+2332 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "The Rock waxwork museum working on 'urgent' skin tone fix",
+      "description": "Paris's Grevin museum promises to address concerns over the skin tone of its life-sized figure.",
+      "url": "http://www.bbc.co.uk/news/newsbeat-67203892",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/D99F/production/_131511755_gettyimages-1738672830.jpg",
+      "publishedAt": "2023-10-24T08:52:19.4487281Z",
+      "content": "A French museum is working urgently to fix a waxwork of Dwayne \"The Rock\" Johnson after he complained about it.\r\nThe Grevin Museum in Paris proudly revealed the life-sized figure of the wrestler-turn… [+1603 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "The Australian city key to US plan to counter China",
+      "description": "Darwin, a city shaped by war, is the focus of Australian and US efforts to deter another.",
+      "url": "http://www.bbc.co.uk/news/world-australia-67166799",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7F94/production/_131506623_20230903army8632083_111.jpg",
+      "publishedAt": "2023-10-24T07:22:17.1760783Z",
+      "content": "When Australian Prime Minister Anthony Albanese meets US President Joe Biden in Washington this week, deterring an assertive China will be on the agenda. At home, Darwin - a city key to the US-led de… [+8781 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Woman returns from holiday to find home demolished",
+      "description": "The Atlanta resident's house was mistakenly torn down by a demolition company with the wrong address.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-67177641",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/9741/production/_131512783_p0gnc2pl.jpg",
+      "publishedAt": "2023-10-24T06:37:19.146522Z",
+      "content": "Susan Hodgson says she was in shock when she returned from vacation to find her property razed to the ground. \r\nThe old family property, where no one had lived for about 15 years, was mistakenly torn… [+90 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Iceland's PM to strike over gender pay gap",
+      "description": "Katrín Jakobsdóttir will not work in protest at the gender pay gap and gender-based violence.",
+      "url": "http://www.bbc.co.uk/news/world-europe-67195224",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/A00A/production/_131507904_759de7e6e827764b725f672e842f81389ec490050_0_5500_30941000x563.jpg",
+      "publishedAt": "2023-10-24T03:07:17.8954549Z",
+      "content": "Tens of thousands of women in Iceland, including Prime Minister Katrín Jakobsdóttir, will refuse to work on Tuesday. \r\nThe \"kvennafri\", or women's day off, has been called in protest at the gender pa… [+1815 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Britney Spears' memoir is an angry, cautionary tale",
+      "description": "The Woman In Me, which is published on Tuesday, lifts the lid on her 13-year conservatorship.",
+      "url": "http://www.bbc.co.uk/news/entertainment-arts-67193983",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16BE8/production/_131506139_gettyimages-457100765.jpg",
+      "publishedAt": "2023-10-24T01:52:15.7220812Z",
+      "content": "Britney Spears knows what it's like to feel trapped: First by poverty, then by fame, then by her family.\r\nShe has been subject to scrutiny and ridicule throughout her life. As a teenager, journalists… [+9013 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Man charged with attempting to crash passenger jet",
+      "description": "The Alaska Airlines flight to San Francisco had 80 people on board.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-67177294",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/83B3/production/_115651733_breaking-large-promo-nc.png",
+      "publishedAt": "2023-10-23T16:07:20.8933445Z",
+      "content": "A US man has been charged with 83 counts of attempted murder, after he allegedly tried to crash a passenger jet while in flight.\r\nThe man was sitting in the cockpit of an Alaska Airlines flight behin… [+334 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Who are the Republican candidates to be US House Speaker?",
+      "description": "Republicans are again searching for a new nominee after Jim Jordan's Speaker bid fell apart last week.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-67195019",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/158D8/production/_131508288_gettyimages-1736828131-1.jpg",
+      "publishedAt": "2023-10-23T14:07:29.9021389Z",
+      "content": "Nearly three weeks after Kevin McCarthy's ouster, the Republican party's fraught search for a Speaker of the House of Representatives continues. \r\nLast week, embattled House Republicans moved to remo… [+6517 chars]"
+    }
+  ]
+}
