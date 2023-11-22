@@ -27,55 +27,73 @@ export class News extends Component {
       page:1
     }
   }
-  async componentDidMount(){
-    let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d935ab7669804cc6b2e2ea29a7929f36&page=1&pageSize=${this.props.pageSize}`;
+  async updateNews(){
+    this.props.setProgress(0);
+    let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d935ab7669804cc6b2e2ea29a7929f36&page=${this.state.page}&pageSize=${this.props.pageSize}`;
     this.setState({loading:true})
     let data=await fetch(url)
+    this.props.setProgress(30)
     let parsedData=await data.json();
     console.log(parsedData)
     this.setState({articles : parsedData.articles,totalResults : parsedData.totalResults,
     loading:false })
-
+this.props.setProgress(100)
+  }
+  async componentDidMount(){
+    this.setState({
+      page:1
+    })
+   this.updateNews();
   }
 
   handlePrev=async()=>{
-    console.log("prev button is clicked!")
-    let url=`https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=d935ab7669804cc6b2e2ea29a7929f36&page=${this.state.page-1}&pageSize=${this.props.pageSize}`;
+    console.log("previous is clicked!");
+    this.props.setProgress(0);
+    let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d935ab7669804cc6b2e2ea29a7929f36&page=${this.state.page-1}&pageSize=${this.props.pageSize}`;
+    this.setState({loading:true})
     let data=await fetch(url)
-    this.setState({loading:true});
+    this.props.setProgress(30)
     let parsedData=await data.json();
     console.log(parsedData)
+    this.setState({articles : parsedData.articles,totalResults : parsedData.totalResults,
+    loading:false })
+this.props.setProgress(100)
     this.setState({
       page:this.state.page - 1,
-      articles : parsedData.articles,
-      loading:false
+      
        })
-
+   
 
   }
   handleNext=async()=>{
+    console.log("next is clicked!");
     if(this.state.page+1 > Math.ceil(this.state.totalResults/this.props.pageSize)){
 
     }
-else{
-    console.log("next button is clicked!")
-    let url=`https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=d935ab7669804cc6b2e2ea29a7929f36&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
-    let data=await fetch(url)
+    else{
+    this.props.setProgress(0);
+    /* Loaded url is also page+1, then state variable is also updated as page+1 */
+    let url=`https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d935ab7669804cc6b2e2ea29a7929f36&page=${this.state.page+1}&pageSize=${this.props.pageSize}`;
     this.setState({loading:true})
+    let data=await fetch(url)
+    this.props.setProgress(30)
     let parsedData=await data.json();
     console.log(parsedData)
-    this.setState({
-      page:this.state.page + 1,
-      articles : parsedData.articles,
-      loading:false
-       })
-      }
+    this.setState({articles : parsedData.articles,totalResults : parsedData.totalResults,
+    loading:false })
+this.props.setProgress(100)
+this.setState({
+  page:this.state.page +1,
+  
+   })
+
+}
   }
 
   render() {
     return (
       <div className='container my-3'>
-        <h1 className='text-center' style={{margin:'25px 0'}}>NewsMonkey - Top HeadLines</h1>
+        <h1 className='text-center' style={{margin:'55px 45px 0 0'}}>NewsMonkey - Top HeadLines</h1>
         {this.state.loading && <Spinner/>}
         <div className="row">
           {this.state.articles.map((element)=>{
